@@ -1,145 +1,55 @@
 <!doctype html>
 <html lang="hi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#071326"><title>श्री बालाजी ज्योतिष केंद्र | ज्योतिष एवं रत्न</title>
+<meta name="theme-color" content="#071326"><meta name="description" content="श्री बालाजी ज्योतिष केंद्र: ज्योतिष परामर्श, जन्म कुंडली और रत्नों की जानकारी।">
+<title>श्री बालाजी ज्योतिष केंद्र | ज्योतिष, कुंडली एवं रत्न</title>
 <style>
-:root{--bg:#071326;--panel:#101f35;--gold:#f0d28c;--muted:#c5cbd7;--line:#34435a}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:#fff8e9;font-family:system-ui,-apple-system,"Noto Sans Devanagari",sans-serif;line-height:1.55}
-a{color:inherit;text-decoration:none}.wrap{width:min(1120px,92%);margin:auto}
-header{background:#050c19;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:5}.nav{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 0}
-.brand{display:flex;align-items:center;gap:11px}.om{height:52px;width:52px;border:1px solid var(--gold);border-radius:50%;display:grid;place-items:center;color:var(--gold);font-size:28px;flex-shrink:0}
-.brand strong{display:block;color:var(--gold);font-size:18px}.brand small{display:block;color:#c5cbd7;font-size:11px}
-.btn{display:inline-flex;align-items:center;justify-content:center;background:var(--gold);color:#20172a;padding:12px 17px;border-radius:10px;font-weight:800;border:1px solid var(--gold)}
-.hero{padding:55px 0;background:radial-gradient(ellipse at 80% 20%,#44233d,transparent 34%),linear-gradient(125deg,#071326,#19152a)}.hero-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:30px;align-items:center}
-.pill{display:inline-block;border:1px solid #a98b52;border-radius:30px;padding:6px 12px;color:var(--gold);font-size:13px}
-h1{font-size:clamp(34px,5vw,58px);line-height:1.13;margin:17px 0}h1 span{color:var(--gold)}.hero p{color:var(--muted);font-size:17px}
-.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}.outline{background:transparent;color:var(--gold)}
-.hero-art{display:grid;place-items:center;min-height:230px}.mandala{width:220px;aspect-ratio:1;border:1px solid #cba85e;border-radius:50%;display:grid;place-items:center;font-size:85px;color:var(--gold);background:radial-gradient(circle,#38263b,#111a2e);box-shadow:0 0 0 20px #d5b66c0d,0 0 0 42px #d5b66c08}
-section{padding:52px 0}.section-head{text-align:center;max-width:700px;margin:0 auto 28px}.section-head h2{font-size:clamp(28px,4vw,40px);color:var(--gold);margin:8px 0}.section-head p{color:var(--muted);margin:0}
-.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:17px}.card{background:var(--panel);border:1px solid var(--line);border-radius:18px;overflow:hidden;min-width:0;box-shadow:0 8px 22px #0003}
-.card img{display:block;width:100%;height:220px;object-fit:cover;background:#eee}.card-body{padding:16px}.tag{font-size:11px;color:var(--gold);letter-spacing:1px}h3{font-size:22px;margin:5px 0}.card p{color:var(--muted);margin:0 0 14px}.card .btn{width:100%}
-.contact{background:#111e32;border-block:1px solid var(--line);text-align:center}.contact h2{color:var(--gold)}.contact p{color:var(--muted)}footer{padding:24px;text-align:center;color:var(--muted);font-size:13px}
-@media(max-width:800px){.hero-grid{grid-template-columns:1fr}.hero-art{min-height:190px}.mandala{width:170px;font-size:68px}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.card img{height:170px}}
-@media(max-width:440px){.brand strong{font-size:14px}.brand small{font-size:9px}.om{width:44px;height:44px;font-size:23px}.nav>.btn{font-size:12px;padding:10px}.grid{gap:10px}.card img{height:140px}.card-body{padding:11px}h3{font-size:18px}.card p{font-size:12px}.card .btn{font-size:12px;padding:10px 5px}}
-
-/* Lightweight animation layer — no external libraries or image paths changed */
-html { scroll-behavior: smooth; }
-.hero { position: relative; overflow: hidden; }
-.hero::before {
-  content: ""; position: absolute; width: 280px; height: 280px; border-radius: 50%;
-  right: -95px; top: -95px; border: 1px solid rgba(240,210,140,.3);
-  box-shadow: 0 0 0 25px rgba(240,210,140,.035), 0 0 0 55px rgba(240,210,140,.025);
-  animation: haloDrift 9s ease-in-out infinite alternate; pointer-events: none;
-}
-.hero-grid > div:first-child { animation: riseIn .8s ease-out both; }
-.hero-art { animation: riseIn 1s .12s ease-out both; }
-.mandala { animation: softGlow 4s ease-in-out infinite, slowTurn 32s linear infinite; }
-.card { transition: transform .28s ease, border-color .28s ease, box-shadow .28s ease; }
-.card:hover { transform: translateY(-7px); border-color: rgba(240,210,140,.8); box-shadow: 0 14px 32px rgba(0,0,0,.28); }
-.card img { transition: transform .5s ease, filter .5s ease; }
-.card:hover img { transform: scale(1.055); filter: brightness(1.07) saturate(1.08); }
-.btn { transition: transform .2s ease, box-shadow .2s ease, filter .2s ease; }
-.btn:hover, .btn:focus-visible { transform: translateY(-2px); box-shadow: 0 7px 18px rgba(240,210,140,.18); }
-.float-wa { animation: waPulse 2.6s ease-in-out infinite; }
-.reveal { opacity: 0; transform: translateY(20px); transition: opacity .65s ease, transform .65s ease; }
-.reveal.is-visible { opacity: 1; transform: translateY(0); }
-@keyframes riseIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
-@keyframes softGlow { 0%,100% { box-shadow: 0 0 0 20px rgba(213,182,108,.04), 0 0 24px rgba(240,210,140,.08); } 50% { box-shadow: 0 0 0 25px rgba(213,182,108,.075), 0 0 38px rgba(240,210,140,.2); } }
-@keyframes slowTurn { from { rotate: 0deg; } to { rotate: 360deg; } }
-@keyframes haloDrift { from { transform: translate(0,0); } to { transform: translate(-22px,24px); } }
-@keyframes waPulse { 0%,100% { box-shadow: 0 0 0 0 rgba(22,131,76,.3); } 50% { box-shadow: 0 0 0 9px rgba(22,131,76,0); } }
-@media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: .01ms !important; }
-  .reveal { opacity: 1; transform: none; }
-}
-
-
-/* Readability and card size tuning for mobile */
-.hero { padding-top: 66px !important; padding-bottom: 66px !important; }
-.hero p { font-size: 18px !important; line-height: 1.8 !important; }
-.card img { height: 250px !important; }
-.card-body { padding: 18px !important; }
-.card-body h3, .card h3 { font-size: 24px !important; }
-.card-body p, .card p { font-size: 15px !important; }
-.card .btn { min-height: 48px; font-size: 15px; }
-@media (max-width:800px) {
-  .hero p { font-size: 16px !important; }
-  .card img { height: 205px !important; }
-  .card-body { padding: 14px !important; }
-  .card-body h3, .card h3 { font-size: 21px !important; }
-}
-@media (max-width:440px) {
-  .card img { height: 175px !important; }
-  .card-body h3, .card h3 { font-size: 19px !important; }
-  .card-body p, .card p { font-size: 13px !important; }
-  .card .btn { font-size: 13px; }
-}
-
+:root{--bg:#071326;--panel:#101f35;--gold:#f0d28c;--muted:#c5cbd7;--line:#34435a;--cream:#fff8e9}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--cream);font-family:system-ui,-apple-system,"Noto Sans Devanagari",sans-serif;line-height:1.65}a{color:inherit;text-decoration:none}.wrap{width:min(1120px,92%);margin:auto}
+header{background:#050c19;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:5}.nav{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 0}.brand{display:flex;align-items:center;gap:11px}.om{width:52px;height:52px;border:1px solid var(--gold);border-radius:50%;display:grid;place-items:center;color:var(--gold);font-size:28px;flex-shrink:0}.brand strong{display:block;color:var(--gold);font-size:18px}.brand small{display:block;color:#c5cbd7;font-size:11px}
+.btn{display:inline-flex;align-items:center;justify-content:center;background:var(--gold);color:#20172a;padding:12px 17px;border-radius:10px;font-weight:800;border:1px solid var(--gold);transition:.2s}.btn:hover{transform:translateY(-2px);box-shadow:0 8px 22px #f0d28c24}.outline{background:transparent;color:var(--gold)}
+.hero{padding:64px 0;background:radial-gradient(ellipse at 80% 20%,#44233d,transparent 34%),linear-gradient(125deg,#071326,#19152a);position:relative;overflow:hidden}.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:30px;align-items:center}.pill{display:inline-block;border:1px solid #a98b52;border-radius:30px;padding:6px 12px;color:var(--gold);font-size:13px}
+h1{font-size:clamp(34px,5vw,58px);line-height:1.15;margin:17px 0}h1 span{color:var(--gold)}.hero p{color:var(--muted);font-size:18px;max-width:660px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}.hero-art{display:grid;place-items:center;min-height:260px}.mandala{width:230px;aspect-ratio:1;border:1px solid #cba85e;border-radius:50%;display:grid;place-items:center;font-size:90px;color:var(--gold);background:radial-gradient(circle,#38263b,#111a2e);box-shadow:0 0 0 20px #d5b66c0d;animation:glow 4s ease-in-out infinite,turn 35s linear infinite}
+section{padding:58px 0}.section-head{text-align:center;max-width:780px;margin:0 auto 32px}.section-head h2{font-size:clamp(28px,4vw,40px);color:var(--gold);margin:8px 0}.section-head p{color:var(--muted);margin:0}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+.card{display:grid;grid-template-columns:43% 57%;background:var(--panel);border:1px solid var(--line);border-radius:18px;overflow:hidden;min-width:0;box-shadow:0 8px 22px #0003;transition:transform .25s,box-shadow .25s}.card:hover{transform:translateY(-4px);box-shadow:0 15px 30px #0005}.card img{display:block;width:100%;height:100%;min-height:260px;object-fit:cover;background:#18233a}.card-body{padding:20px}.tag{font-size:11px;color:var(--gold);letter-spacing:1px}h3{font-size:24px;margin:4px 0 0}.en{font-size:12px;color:#aeb8c8;margin-bottom:10px}.card p{font-size:14px;color:var(--muted);margin:0 0 18px;line-height:1.7}.card .btn{font-size:13px;padding:10px 12px}
+.info{background:#101d31;border-block:1px solid var(--line)}.info-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.info-card{padding:23px;border:1px solid var(--line);border-radius:15px;background:#0b172a}.info-card h3{color:var(--gold);font-size:18px;margin-bottom:8px}.info-card p{color:var(--muted);font-size:14px;margin:0}
+.contact{text-align:center;background:linear-gradient(130deg,#20182b,#0b172a)}.contact h2{color:var(--gold);font-size:34px;margin:0}.contact p{color:var(--muted)}footer{padding:24px;text-align:center;color:var(--muted);font-size:13px}
+.reveal{opacity:0;transform:translateY(18px);transition:opacity .6s ease,transform .6s ease}.reveal.visible{opacity:1;transform:translateY(0)}
+@keyframes glow{0%,100%{box-shadow:0 0 0 18px #d5b66c0a,0 0 18px #f0d28c0d}50%{box-shadow:0 0 0 24px #d5b66c12,0 0 34px #f0d28c2a}}@keyframes turn{from{rotate:0deg}to{rotate:360deg}}
+@media(max-width:850px){.hero-grid{grid-template-columns:1fr}.hero-art{min-height:190px}.mandala{width:170px;font-size:65px}.grid{grid-template-columns:1fr}.info-grid{grid-template-columns:1fr}.card img{min-height:220px}}
+@media(max-width:480px){.brand strong{font-size:14px}.brand small{font-size:9px}.nav>.btn{font-size:12px;padding:10px}.hero p{font-size:16px}.card{grid-template-columns:39% 61%}.card img{min-height:260px}.card-body{padding:13px}h3{font-size:20px}.card p{font-size:13px}.card .btn{font-size:12px;padding:9px 7px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.reveal{opacity:1;transform:none}}
 </style></head><body>
-<header><div class="wrap nav"><a class="brand" href="#"><span class="om">ॐ</span><span><strong>श्री बालाजी ज्योतिष केंद्र</strong><small>मेहंदीपुर वाले बालाजी की कृपा से • ज्योतिष एवं रत्न</small></span></a><a class="btn" href="tel:+917078890096">☎ कॉल करें</a></div></header>
-<section class="hero"><div class="wrap hero-grid"><div><span class="pill">आपका स्वागत है</span><h1>ज्योतिष एवं रत्नों के लिए<br><span>सही मार्गदर्शन</span></h1><p>जन्म कुंडली, ज्योतिष परामर्श और रत्नों की जानकारी के लिए संपर्क करें। किसी रत्न की कीमत और उपलब्धता WhatsApp पर पूछें।</p><div class="actions"><a class="btn" href="https://wa.me/917078890096" target="_blank" rel="noopener">WhatsApp करें ↗</a><a class="btn outline" href="#gems">रत्न देखें ↓</a></div></div><div class="hero-art"><div class="mandala">ॐ</div></div></div></section>
-<section id="gems"><div class="wrap"><div class="section-head"><span class="pill">GEMSTONE COLLECTION</span><h2>रत्न संग्रह</h2><p>आपके भेजे हुए रत्नों की तस्वीरें वेबसाइट में सीधे शामिल हैं।</p></div><div class="grid">
-    <article class="card">
-      <img src="pukhraj.jpg" alt="पुखराज (Yellow Sapphire)" loading="lazy">
-      <div class="card-body"><span class="tag">रत्न संग्रह</span><h3>पुखराज</h3><p>Yellow Sapphire</p>
-      <a class="btn" href="https://wa.me/917078890096?text=नमस्ते, मुझे पुखराज की कीमत और उपलब्धता जाननी है।" target="_blank" rel="noopener">कीमत पूछें ↗</a></div>
-    </article>
-    <article class="card">
-      <img src="neelam.jpg" alt="नीलम (Blue Sapphire)" loading="lazy">
-      <div class="card-body"><span class="tag">रत्न संग्रह</span><h3>नीलम</h3><p>Blue Sapphire</p>
-      <a class="btn" href="https://wa.me/917078890096?text=नमस्ते, मुझे नीलम की कीमत और उपलब्धता जाननी है।" target="_blank" rel="noopener">कीमत पूछें ↗</a></div>
-    </article>
-    <article class="card">
-      <img src="manikya.jpg" alt="माणिक्य (Ruby)" loading="lazy">
-      <div class="card-body"><span class="tag">रत्न संग्रह</span><h3>माणिक्य</h3><p>Ruby</p>
-      <a class="btn" href="https://wa.me/917078890096?text=नमस्ते, मुझे माणिक्य की कीमत और उपलब्धता जाननी है।" target="_blank" rel="noopener">कीमत पूछें ↗</a></div>
-    </article>
-    <article class="card">
-      <img src="panna.jpg" alt="पन्ना (Emerald)" loading="lazy">
-      <div class="card-body"><span class="tag">रत्न संग्रह</span><h3>पन्ना</h3><p>Emerald</p>
-      <a class="btn" href="https://wa.me/917078890096?text=नमस्ते, मुझे पन्ना की कीमत और उपलब्धता जाननी है।" target="_blank" rel="noopener">कीमत पूछें ↗</a></div>
-    </article>
-    <article class="card">
-      <img src="heera.jpg" alt="हीरा (Diamond)" loading="lazy">
-      <div class="card-body"><span class="tag">रत्न संग्रह</span><h3>हीरा</h3><p>Diamond</p>
-      <a class="btn" href="https://wa.me/917078890096?text=नमस्ते, मुझे हीरा की कीमत और उपलब्धता जाननी है।" target="_blank" rel="noopener">कीमत पूछें ↗</a></div>
-    </article>
-    <article class="card">
-      <img src="moonga.jpg" alt="मूंगा (Red Coral)" loading="lazy">
-      <div class="card-body"><span class="tag">रत्न संग्रह</span><h3>मूंगा</h3><p>Red Coral</p>
-      <a class="btn" href="https://wa.me/917078890096?text=नमस्ते, मुझे मूंगा की कीमत और उपलब्धता जाननी है।" target="_blank" rel="noopener">कीमत पूछें ↗</a></div>
-    </article>
-    <article class="card">
-      <img src="moti.jpg" alt="मोती (Pearl)" loading="lazy">
-      <div class="card-body"><span class="tag">रत्न संग्रह</span><h3>मोती</h3><p>Pearl</p>
-      <a class="btn" href="https://wa.me/917078890096?text=नमस्ते, मुझे मोती की कीमत और उपलब्धता जाननी है।" target="_blank" rel="noopener">कीमत पूछें ↗</a></div>
-    </article>
-    <article class="card">
-      <img src="rudraksha.jpg" alt="रुद्राक्ष (Rudraksha)" loading="lazy">
-      <div class="card-body"><span class="tag">रत्न संग्रह</span><h3>रुद्राक्ष</h3><p>Rudraksha</p>
-      <a class="btn" href="https://wa.me/917078890096?text=नमस्ते, मुझे रुद्राक्ष की कीमत और उपलब्धता जाननी है।" target="_blank" rel="noopener">कीमत पूछें ↗</a></div>
-    </article></div></div></section>
-<section class="contact"><div class="wrap"><h2>परामर्श के लिए संपर्क करें</h2><p>फोन: <strong style="color:var(--gold)">7078890096</strong></p><div class="actions" style="justify-content:center"><a class="btn" href="tel:+917078890096">अभी कॉल करें</a><a class="btn outline" href="https://wa.me/917078890096" target="_blank" rel="noopener">WhatsApp करें</a></div></div></section>
-<footer>© <span id="year"></span> श्री बालाजी ज्योतिष केंद्र</footer><script>document.getElementById('year').textContent=new Date().getFullYear();</script>
-
+<header><div class="wrap nav"><a class="brand" href="#"><span class="om">ॐ</span><span><strong>श्री बालाजी ज्योतिष केंद्र</strong><small>ज्योतिष • जन्म कुंडली • रत्न परामर्श</small></span></a><a class="btn" href="tel:+917078890096">☎ 7078890096</a></div></header>
+<section class="hero"><div class="wrap hero-grid"><div><span class="pill">आपका स्वागत है</span><h1>ज्योतिष एवं रत्नों के लिए<br><span>विस्तृत जानकारी और मार्गदर्शन</span></h1><p>जन्म कुंडली, ज्योतिष परामर्श और रत्नों की जानकारी के लिए संपर्क करें। नीचे प्रत्येक रत्न का परिचय पढ़ें और कीमत, गुणवत्ता या उपलब्धता जानने के लिए WhatsApp करें।</p><div class="actions"><a class="btn" href="https://wa.me/917078890096?text=नमस्ते%2C%20मुझे%20ज्योतिष%20परामर्श%20की%20जानकारी%20चाहिए।" target="_blank" rel="noopener">WhatsApp पर पूछें ↗</a><a class="btn outline" href="#gems">रत्न संग्रह देखें ↓</a></div></div><div class="hero-art"><div class="mandala">ॐ</div></div></div></section>
+<section id="gems"><div class="wrap"><div class="section-head"><span class="pill">GEMSTONE COLLECTION</span><h2>8 रत्नों की जानकारी</h2><p>हर कार्ड में रत्न का नाम, छोटा परिचय और कीमत/उपलब्धता पूछने का विकल्प है।</p></div><div class="grid"><article class="card reveal">
+<img src="pukhraj.jpg" alt="पुखराज रत्न" loading="lazy">
+<div class="card-body"><span class="tag">रत्न परिचय</span><h3>पुखराज</h3><div class="en">Yellow Sapphire</div>
+<p>पुखराज पारंपरिक रूप से गुरु ग्रह से जोड़ा जाता है। इसे खरीदते समय प्राकृतिक/प्रयोगशाला-निर्मित होने, उपचार (treatment), कैरेट और प्रमाणपत्र की जानकारी पूछें।</p><a class="btn" href="https://wa.me/917078890096?text=नमस्ते, मुझे पुखराज (Yellow Sapphire) की कीमत, गुणवत्ता और उपलब्धता की जानकारी चाहिए।" target="_blank" rel="noopener">कीमत और जानकारी पूछें ↗</a></div></article><article class="card reveal">
+<img src="neelam.jpg" alt="नीलम रत्न" loading="lazy">
+<div class="card-body"><span class="tag">रत्न परिचय</span><h3>नीलम</h3><div class="en">Blue Sapphire</div>
+<p>नीलम एक नीले रंग का कोरन्डम रत्न है। रंग, पारदर्शिता, उपचार और प्रमाणपत्र इसकी गुणवत्ता समझने में मदद करते हैं।</p><a class="btn" href="https://wa.me/917078890096?text=नमस्ते, मुझे नीलम (Blue Sapphire) की कीमत, गुणवत्ता और उपलब्धता की जानकारी चाहिए।" target="_blank" rel="noopener">कीमत और जानकारी पूछें ↗</a></div></article><article class="card reveal">
+<img src="manikya.jpg" alt="माणिक्य रत्न" loading="lazy">
+<div class="card-body"><span class="tag">रत्न परिचय</span><h3>माणिक्य</h3><div class="en">Ruby</div>
+<p>माणिक्य लाल रंग का कोरन्डम रत्न है। खरीदने से पहले रंग, पारदर्शिता, उपचार और प्रामाणिकता की जानकारी लें।</p><a class="btn" href="https://wa.me/917078890096?text=नमस्ते, मुझे माणिक्य (Ruby) की कीमत, गुणवत्ता और उपलब्धता की जानकारी चाहिए।" target="_blank" rel="noopener">कीमत और जानकारी पूछें ↗</a></div></article><article class="card reveal">
+<img src="panna.jpg" alt="पन्ना रत्न" loading="lazy">
+<div class="card-body"><span class="tag">रत्न परिचय</span><h3>पन्ना</h3><div class="en">Emerald</div>
+<p>पन्ना हरे रंग का बेरिल रत्न है। प्राकृतिक पन्नों में अक्सर आंतरिक निशान होते हैं; उपचार और प्रमाणपत्र के बारे में पूछें।</p><a class="btn" href="https://wa.me/917078890096?text=नमस्ते, मुझे पन्ना (Emerald) की कीमत, गुणवत्ता और उपलब्धता की जानकारी चाहिए।" target="_blank" rel="noopener">कीमत और जानकारी पूछें ↗</a></div></article><article class="card reveal">
+<img src="heera.jpg" alt="हीरा रत्न" loading="lazy">
+<div class="card-body"><span class="tag">रत्न परिचय</span><h3>हीरा</h3><div class="en">Diamond</div>
+<p>हीरे की गुणवत्ता समझने के लिए कट, रंग, स्पष्टता और कैरेट जैसे पहलुओं की जानकारी लें। प्रमाणपत्र और प्राकृतिक/लैब-ग्रोन स्थिति पूछें।</p><a class="btn" href="https://wa.me/917078890096?text=नमस्ते, मुझे हीरा (Diamond) की कीमत, गुणवत्ता और उपलब्धता की जानकारी चाहिए।" target="_blank" rel="noopener">कीमत और जानकारी पूछें ↗</a></div></article><article class="card reveal">
+<img src="moonga.jpg" alt="मूंगा रत्न" loading="lazy">
+<div class="card-body"><span class="tag">रत्न परिचय</span><h3>मूंगा</h3><div class="en">Red Coral</div>
+<p>लाल मूंगा जैविक मूल का रत्न है। सामग्री, रंग, असली होने की जाँच और स्रोत की जानकारी विक्रेता से लें।</p><a class="btn" href="https://wa.me/917078890096?text=नमस्ते, मुझे मूंगा (Red Coral) की कीमत, गुणवत्ता और उपलब्धता की जानकारी चाहिए।" target="_blank" rel="noopener">कीमत और जानकारी पूछें ↗</a></div></article><article class="card reveal">
+<img src="moti.jpg" alt="मोती रत्न" loading="lazy">
+<div class="card-body"><span class="tag">रत्न परिचय</span><h3>मोती</h3><div class="en">Pearl</div>
+<p>मोती प्राकृतिक, कल्चर्ड या नकली हो सकता है। प्रकार, सतह, चमक, आकार और प्रमाणिकता के बारे में पूछें।</p><a class="btn" href="https://wa.me/917078890096?text=नमस्ते, मुझे मोती (Pearl) की कीमत, गुणवत्ता और उपलब्धता की जानकारी चाहिए।" target="_blank" rel="noopener">कीमत और जानकारी पूछें ↗</a></div></article><article class="card reveal">
+<img src="rudraksha.jpg" alt="रुद्राक्ष रत्न" loading="lazy">
+<div class="card-body"><span class="tag">रत्न परिचय</span><h3>रुद्राक्ष</h3><div class="en">Rudraksha</div>
+<p>रुद्राक्ष के दाने और माला के बारे में जानकारी लें। मुखी संख्या, स्रोत और प्रमाणिकता विक्रेता से स्पष्ट कराएँ।</p><a class="btn" href="https://wa.me/917078890096?text=नमस्ते, मुझे रुद्राक्ष (Rudraksha) की कीमत, गुणवत्ता और उपलब्धता की जानकारी चाहिए।" target="_blank" rel="noopener">कीमत और जानकारी पूछें ↗</a></div></article></div></div></section>
+<section class="info"><div class="wrap"><div class="section-head"><h2>खरीदने से पहले ध्यान दें</h2><p>रत्न की सही जानकारी और प्रमाणिकता जाँचना महत्वपूर्ण है।</p></div><div class="info-grid"><article class="info-card"><h3>प्रमाणिकता</h3><p>पूछें कि रत्न प्राकृतिक है या लैब-निर्मित, और क्या उसके साथ भरोसेमंद प्रमाणपत्र उपलब्ध है।</p></article><article class="info-card"><h3>गुणवत्ता</h3><p>रंग, पारदर्शिता, कैरेट, उपचार और खरोंच/नुकसान जैसी बातों के आधार पर तुलना करें।</p></article><article class="info-card"><h3>परामर्श</h3><p>ज्योतिषीय मान्यताएँ परंपरा का हिस्सा हैं; रत्नों से जीवन के परिणाम बदलने की वैज्ञानिक गारंटी नहीं है।</p></article></div></div></section>
+<section class="contact"><div class="wrap"><h2>परामर्श और जानकारी के लिए संपर्क करें</h2><p>फोन: <strong style="color:var(--gold)">7078890096</strong></p><div class="actions" style="justify-content:center"><a class="btn" href="tel:+917078890096">अभी कॉल करें</a><a class="btn outline" href="https://wa.me/917078890096?text=नमस्ते%2C%20मुझे%20जानकारी%20चाहिए।" target="_blank" rel="noopener">WhatsApp करें</a></div></div></section>
+<footer>© <span id="year"></span> श्री बालाजी ज्योतिष केंद्र</footer>
 <script>
-(function () {
-  const reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  if (reduceMotion || !('IntersectionObserver' in window)) return;
-  const targets = document.querySelectorAll('#gems .card, #gems .gem, .contact, .section-head, .service, .about-panel, .about-copy');
-  targets.forEach((el, i) => {
-    el.classList.add('reveal');
-    if (el.matches('#gems .card, #gems .gem')) el.style.transitionDelay = (i % 4) * 70 + 'ms';
-  });
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('is-visible');
-        observer.unobserve(entry.target);
-      }
-    });
-  }, { threshold: 0.12 });
-  targets.forEach(el => observer.observe(el));
-})();
-</script>
-
-</body></html>
+document.getElementById('year').textContent=new Date().getFullYear();
+(function(){if(!('IntersectionObserver' in window)){document.querySelectorAll('.reveal').forEach(e=>e.classList.add('visible'));return;}const obs=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');obs.unobserve(e.target);}}),{threshold:.08});document.querySelectorAll('.reveal').forEach(e=>obs.observe(e));})();
+</script></body></html>
