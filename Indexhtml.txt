@@ -1,0 +1,1032 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#06131a">
+<meta name="description" content="श्री बालाजी ज्योतिष केंद्र — जन्म कुंडली, विवाह मिलान, शुभ मुहूर्त, वास्तु, अंक ज्योतिष और प्रामाणिक रत्नों की जानकारी।">
+<title>श्री बालाजी ज्योतिष केंद्र | Vedic Astrology & Divine Guidance</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Noto+Serif+Devanagari:wght@300;400;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+--night-900: #06131a;
+--night-800: #0b1f28;
+--night-700: #122c37;
+--gold-pure: #d4af37;
+--gold-glow: #e8c977;
+--gold-soft: #f4e8cc;
+--gold-gradient: linear-gradient(135deg, #dfba73 0%, #c49646 50%, #9a6e29 100%);
+--gold-border: linear-gradient(135deg, rgba(232, 201, 119, 0.45), rgba(232, 201, 119, 0.08));
+--paper-cream: #faf7f2;
+--card-bg: #ffffff;
+--text-dark: #142229;
+--text-muted: #5e6f77;
+--shadow-sm: 0 4px 20px rgba(0, 0, 0, 0.04);
+--shadow-lux: 0 16px 40px -10px rgba(11, 31, 40, 0.12), 0 0 1px 1px rgba(197, 155, 78, 0.2);
+--trans: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+• { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+background: var(--paper-cream);
+color: var(--text-dark);
+font-family: "Plus Jakarta Sans", "Noto Serif Devanagari", sans-serif;
+line-height: 1.6;
+overflow-x: hidden;
+}
+
+a { color: inherit; text-decoration: none; }
+button { font: inherit; border: none; background: none; cursor: pointer; }
+
+/* Announcement Bar */
+.topbar {
+background: linear-gradient(90deg, #051016, #0e242f, #051016);
+color: var(--gold-soft);
+text-align: center;
+font-size: 12px;
+letter-spacing: 1px;
+padding: 8px 16px;
+border-bottom: 1px solid rgba(212, 175, 55, 0.25);
+}
+
+/* Luxury Sticky Navbar */
+.nav-wrapper {
+position: sticky;
+top: 0;
+z-index: 100;
+background: rgba(250, 247, 242, 0.88);
+backdrop-filter: blur(16px);
+-webkit-backdrop-filter: blur(16px);
+border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+transition: var(--trans);
+}
+
+nav {
+max-width: 1220px;
+margin: 0 auto;
+padding: 14px 24px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.brand {
+display: flex;
+align-items: center;
+gap: 12px;
+}
+
+.brand-om {
+width: 44px;
+height: 44px;
+border-radius: 50%;
+display: grid;
+place-items: center;
+font-size: 22px;
+font-weight: 700;
+color: #06131a;
+background: var(--gold-gradient);
+box-shadow: 0 4px 15px rgba(196, 150, 70, 0.35);
+}
+
+.brand-info strong {
+display: block;
+font-family: "Noto Serif Devanagari", serif;
+font-size: 18px;
+letter-spacing: 0.3px;
+color: var(--night-900);
+}
+
+.brand-info small {
+font-family: 'Cinzel', serif;
+font-size: 9.5px;
+letter-spacing: 2px;
+color: #8c672b;
+text-transform: uppercase;
+font-weight: 600;
+}
+
+.nav-links {
+display: flex;
+align-items: center;
+gap: 32px;
+font-size: 14px;
+font-weight: 500;
+color: #3b4e56;
+}
+
+.nav-links a {
+position: relative;
+transition: var(--trans);
+padding: 6px 0;
+}
+
+.nav-links a::after {
+content: "";
+position: absolute;
+bottom: 0;
+left: 0;
+width: 0;
+height: 2px;
+background: var(--gold-pure);
+transition: var(--trans);
+}
+
+.nav-links a:hover {
+color: #9a6e29;
+}
+
+.nav-links a:hover::after {
+width: 100%;
+}
+
+.btn-primary {
+display: inline-flex;
+align-items: center;
+gap: 8px;
+background: var(--gold-gradient);
+color: #06131a;
+padding: 11px 22px;
+border-radius: 40px;
+font-weight: 700;
+font-size: 13px;
+letter-spacing: 0.5px;
+box-shadow: 0 4px 16px rgba(196, 150, 70, 0.28);
+transition: var(--trans);
+}
+
+.btn-primary:hover {
+transform: translateY(-2px);
+box-shadow: 0 8px 24px rgba(196, 150, 70, 0.45);
+}
+
+.btn-ghost {
+border: 1px solid rgba(232, 201, 119, 0.6);
+color: var(--gold-soft);
+padding: 11px 22px;
+border-radius: 40px;
+font-size: 13px;
+font-weight: 600;
+backdrop-filter: blur(4px);
+transition: var(--trans);
+}
+
+.btn-ghost:hover {
+background: rgba(232, 201, 119, 0.12);
+border-color: var(--gold-glow);
+transform: translateY(-2px);
+}
+
+/* Mobile Toggle */
+.menu-btn {
+display: none;
+font-size: 24px;
+color: var(--night-900);
+}
+
+/* Hero Section */
+.hero {
+position: relative;
+background: radial-gradient(circle at 85% 20%, #173b49 0%, #06131a 60%);
+color: #ffffff;
+padding: 100px 24px 90px;
+overflow: hidden;
+border-bottom: 2px solid rgba(212, 175, 55, 0.25);
+}
+
+.hero::before {
+content: "";
+position: absolute;
+top: -120px;
+right: -120px;
+width: 550px;
+height: 550px;
+border-radius: 50%;
+background: radial-gradient(circle, rgba(212, 175, 55, 0.12) 0%, transparent 70%);
+pointer-events: none;
+}
+
+.hero-container {
+max-width: 1220px;
+margin: 0 auto;
+display: grid;
+grid-template-columns: 1.2fr 0.8fr;
+align-items: center;
+gap: 50px;
+position: relative;
+z-index: 2;
+}
+
+.eyebrow-tag {
+display: inline-flex;
+align-items: center;
+gap: 8px;
+font-family: 'Cinzel', serif;
+font-size: 11.5px;
+letter-spacing: 2.8px;
+text-transform: uppercase;
+color: var(--gold-glow);
+background: rgba(212, 175, 55, 0.08);
+border: 1px solid rgba(212, 175, 55, 0.3);
+padding: 6px 14px;
+border-radius: 30px;
+margin-bottom: 22px;
+}
+
+.hero h1 {
+font-family: "Noto Serif Devanagari", serif;
+font-size: clamp(34px, 4.4vw, 56px);
+line-height: 1.25;
+font-weight: 700;
+color: #fff;
+margin-bottom: 20px;
+}
+
+.hero h1 span {
+background: linear-gradient(120deg, #fff7e6, #e7c78d, #c59b4e);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.hero p {
+font-size: 16px;
+line-height: 1.85;
+color: #b5c7cd;
+max-width: 580px;
+margin-bottom: 32px;
+}
+
+.hero-actions {
+display: flex;
+gap: 16px;
+flex-wrap: wrap;
+}
+
+/* Astrological Mandala Visual */
+.mandala-box {
+display: grid;
+place-items: center;
+position: relative;
+min-height: 380px;
+}
+
+.mandala-disc {
+width: min(340px, 80vw);
+aspect-ratio: 1;
+border-radius: 50%;
+border: 1px solid rgba(212, 175, 55, 0.4);
+position: relative;
+display: grid;
+place-items: center;
+box-shadow: 0 0 60px rgba(212, 175, 55, 0.1);
+animation: float 8s ease-in-out infinite;
+}
+
+.mandala-disc::before {
+content: "";
+position: absolute;
+inset: 16px;
+border-radius: 50%;
+border: 1px dashed rgba(212, 175, 55, 0.45);
+}
+
+.mandala-disc::after {
+content: "";
+position: absolute;
+inset: 42px;
+border-radius: 50%;
+border: 1px solid rgba(212, 175, 55, 0.25);
+transform: rotate(45deg);
+}
+
+.mandala-core {
+width: 140px;
+height: 140px;
+border-radius: 50%;
+background: var(--gold-gradient);
+display: grid;
+place-items: center;
+font-size: 48px;
+font-weight: bold;
+color: #06131a;
+box-shadow: 0 0 45px rgba(212, 175, 55, 0.4);
+}
+
+.orbit-planets {
+position: absolute;
+inset: 0;
+animation: rotateDisc 40s linear infinite;
+}
+
+.orbit-planets span {
+position: absolute;
+font-size: 18px;
+color: var(--gold-glow);
+}
+
+.orbit-planets span:nth-child(1) { top: -2px; left: 50%; transform: translateX(-50%); }
+.orbit-planets span:nth-child(2) { right: 0; top: 50%; transform: translateY(-50%); }
+.orbit-planets span:nth-child(3) { bottom: -2px; left: 50%; transform: translateX(-50%); }
+.orbit-planets span:nth-child(4) { left: 0; top: 50%; transform: translateY(-50%); }
+
+/* Section Styling */
+.section {
+max-width: 1220px;
+margin: 0 auto;
+padding: 90px 24px;
+}
+
+.sec-head {
+text-align: center;
+max-width: 680px;
+margin: 0 auto 50px;
+}
+
+.sec-head .sub {
+font-family: 'Cinzel', serif;
+font-size: 12px;
+color: #9a6e29;
+letter-spacing: 2px;
+text-transform: uppercase;
+font-weight: 700;
+display: block;
+margin-bottom: 8px;
+}
+
+.sec-head h2 {
+font-family: "Noto Serif Devanagari", serif;
+font-size: clamp(26px, 3.2vw, 38px);
+color: var(--night-900);
+margin-bottom: 12px;
+}
+
+.sec-head p {
+color: var(--text-muted);
+font-size: 15px;
+}
+
+/* Service Cards */
+.services-grid {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 20px;
+}
+
+.service-card {
+background: var(--card-bg);
+border-radius: 14px;
+padding: 30px 24px;
+border: 1px solid rgba(212, 175, 55, 0.22);
+box-shadow: var(--shadow-sm);
+transition: var(--trans);
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.service-card:hover {
+transform: translateY(-6px);
+border-color: rgba(212, 175, 55, 0.7);
+box-shadow: var(--shadow-lux);
+}
+
+.srv-icon {
+width: 48px;
+height: 48px;
+border-radius: 12px;
+background: rgba(212, 175, 55, 0.12);
+color: #9a6e29;
+display: grid;
+place-items: center;
+font-size: 22px;
+margin-bottom: 20px;
+}
+
+.service-card h3 {
+font-family: "Noto Serif Devanagari", serif;
+font-size: 19px;
+color: var(--night-900);
+margin-bottom: 10px;
+}
+
+.service-card p {
+font-size: 13.5px;
+color: var(--text-muted);
+line-height: 1.7;
+margin-bottom: 20px;
+}
+
+.srv-link {
+font-size: 13px;
+font-weight: 700;
+color: #a4762c;
+display: inline-flex;
+align-items: center;
+gap: 4px;
+}
+
+/* Banner Strip */
+.gold-banner {
+background: linear-gradient(135deg, #0b1f28 0%, #15323f 100%);
+border-top: 1px solid rgba(212, 175, 55, 0.25);
+border-bottom: 1px solid rgba(212, 175, 55, 0.25);
+color: #ffffff;
+padding: 44px 24px;
+}
+
+.gold-banner-inner {
+max-width: 1220px;
+margin: 0 auto;
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 30px;
+}
+
+.gold-banner h3 {
+font-family: "Noto Serif Devanagari", serif;
+font-size: 26px;
+margin-bottom: 6px;
+color: var(--gold-soft);
+}
+
+.gold-banner p {
+color: #b5c7cd;
+font-size: 14px;
+}
+
+/* Gemstones Grid */
+.product-grid {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 22px;
+}
+
+.gem-card {
+background: var(--card-bg);
+border-radius: 14px;
+overflow: hidden;
+border: 1px solid rgba(212, 175, 55, 0.2);
+box-shadow: var(--shadow-sm);
+transition: var(--trans);
+display: flex;
+flex-direction: column;
+}
+
+.gem-card:hover {
+transform: translateY(-6px);
+border-color: rgba(212, 175, 55, 0.65);
+box-shadow: var(--shadow-lux);
+}
+
+.gem-img {
+width: 100%;
+height: 200px;
+object-fit: cover;
+background: #f0e9dc;
+}
+
+.gem-body {
+padding: 20px;
+display: flex;
+flex-direction: column;
+flex-grow: 1;
+}
+
+.gem-badge {
+font-family: 'Cinzel', serif;
+font-size: 9px;
+letter-spacing: 1.2px;
+color: #8c672b;
+background: rgba(212, 175, 55, 0.12);
+padding: 4px 8px;
+border-radius: 4px;
+display: inline-block;
+align-self: flex-start;
+margin-bottom: 10px;
+font-weight: 700;
+}
+
+.gem-body h3 {
+font-family: "Noto Serif Devanagari", serif;
+font-size: 18px;
+color: var(--night-900);
+margin-bottom: 8px;
+}
+
+.gem-body p {
+font-size: 13px;
+color: var(--text-muted);
+line-height: 1.6;
+margin-bottom: 18px;
+flex-grow: 1;
+}
+
+.gem-card .btn-primary {
+width: 100%;
+justify-content: center;
+font-size: 12.5px;
+padding: 10px;
+border-radius: 6px;
+}
+
+.disclaimer {
+text-align: center;
+font-size: 12px;
+color: var(--text-muted);
+margin-top: 40px;
+max-width: 820px;
+margin-left: auto;
+margin-right: auto;
+}
+
+/* About / Process Section */
+.story-wrapper {
+background: var(--night-900);
+color: #ffffff;
+padding: 90px 24px;
+border-top: 1px solid rgba(212, 175, 55, 0.2);
+border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+}
+
+.story-container {
+max-width: 1220px;
+margin: 0 auto;
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 60px;
+align-items: center;
+}
+
+.story-container h2 {
+font-family: "Noto Serif Devanagari", serif;
+font-size: 34px;
+line-height: 1.35;
+margin-bottom: 20px;
+color: var(--gold-soft);
+}
+
+.story-container p {
+color: #c1d2d8;
+font-size: 15px;
+line-height: 1.85;
+}
+
+.story-card-box {
+background: rgba(255, 255, 255, 0.03);
+border: 1px solid rgba(212, 175, 55, 0.3);
+border-radius: 16px;
+padding: 36px;
+backdrop-filter: blur(10px);
+}
+
+.story-card-box h3 {
+font-family: "Noto Serif Devanagari", serif;
+font-size: 22px;
+color: var(--gold-glow);
+margin-bottom: 20px;
+}
+
+.story-card-box ol {
+list-style: none;
+}
+
+.story-card-box li {
+padding: 10px 0;
+border-bottom: 1px dashed rgba(212, 175, 55, 0.2);
+color: #dbe6ea;
+font-size: 14px;
+display: flex;
+align-items: center;
+gap: 12px;
+}
+
+.story-card-box li:last-child {
+border-bottom: none;
+}
+
+/* Contact Section */
+.contact-container {
+max-width: 1220px;
+margin: 0 auto;
+padding: 90px 24px;
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 60px;
+align-items: center;
+}
+
+.contact-card {
+background: #ffffff;
+border-radius: 16px;
+padding: 34px;
+box-shadow: var(--shadow-lux);
+border: 1px solid rgba(212, 175, 55, 0.25);
+}
+
+.contact-row {
+display: flex;
+align-items: center;
+gap: 16px;
+padding: 16px 0;
+border-bottom: 1px solid #f0e9dc;
+}
+
+.contact-row:last-child { border: none; }
+
+.contact-icon {
+width: 44px;
+height: 44px;
+border-radius: 50%;
+background: rgba(212, 175, 55, 0.12);
+display: grid;
+place-items: center;
+color: #9a6e29;
+font-size: 20px;
+}
+
+.contact-row strong {
+font-size: 16px;
+color: var(--night-900);
+}
+
+.contact-row small {
+display: block;
+font-size: 11.5px;
+color: var(--text-muted);
+text-transform: uppercase;
+letter-spacing: 0.8px;
+}
+
+/* Footer */
+footer {
+background: #040d12;
+color: #a4b4ba;
+padding: 40px 24px;
+border-top: 1px solid rgba(212, 175, 55, 0.15);
+font-size: 13px;
+}
+
+.footer-inner {
+max-width: 1220px;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+gap: 20px;
+}
+
+/* Floating WhatsApp Button */
+.whatsapp-float {
+position: fixed;
+bottom: 24px;
+right: 24px;
+z-index: 100;
+background: #25d366;
+color: #ffffff;
+padding: 13px 22px;
+border-radius: 50px;
+display: inline-flex;
+align-items: center;
+gap: 8px;
+font-weight: 700;
+font-size: 14px;
+box-shadow: 0 10px 25px rgba(37, 211, 102, 0.35);
+transition: var(--trans);
+}
+
+.whatsapp-float:hover {
+transform: translateY(-4px) scale(1.02);
+box-shadow: 0 14px 30px rgba(37, 211, 102, 0.45);
+}
+
+/* Keyframes */
+@keyframes rotateDisc { to { transform: rotate(360deg); } }
+@keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+
+/* Responsive */
+@media (max-width: 992px) {
+.services-grid, .product-grid { grid-template-columns: repeat(2, 1fr); }
+.hero-container, .story-container, .contact-container { grid-template-columns: 1fr; }
+.gold-banner-inner { flex-direction: column; align-items: flex-start; }
+}
+
+@media (max-width: 768px) {
+.nav-links { display: none; }
+.menu-btn { display: block; }
+.nav-links.open {
+display: flex;
+flex-direction: column;
+position: absolute;
+top: 100%;
+left: 0;
+right: 0;
+background: #faf7f2;
+padding: 24px;
+border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+box-shadow: 0 10px 20px rgba(0,0,0,0.06);
+}
+}
+
+@media (max-width: 540px) {
+.services-grid, .product-grid { grid-template-columns: 1fr; }
+.hero { padding: 60px 18px 50px; }
+.section { padding: 60px 18px; }
+.brand-info strong { font-size: 16px; }
+}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+जन्म कुंडली • विवाह मिलान • शुभ मुहूर्त • वास्तु • प्रामाणिक रत्न मार्गदर्शन
+</div>
+
+<header class="nav-wrapper">
+<nav>
+<a class="brand" href="#home">
+<span class="brand-om">ॐ</span>
+<div class="brand-info">
+<strong>श्री बालाजी ज्योतिष केंद्र</strong>
+<small>Sacred Astrology & Guidance</small>
+</div>
+</a>
+
+<div class="nav-links" id="navLinks">
+<a href="#services">ज्योतिष सेवाएँ</a>
+<a href="#gems">रत्न संग्रह</a>
+<a href="#about">हमारे बारे में</a>
+<a href="#contact">संपर्क</a>
+</div>
+
+<div style="display:flex; align-items:center; gap:12px;">
+<a class="btn-primary" href="https://wa.me/917078890096?text=Namaste%2C%20mujhe%20jyotish%20paramarsh%20chahiye">परामर्श लें ↗</a>
+<button class="menu-btn" onclick="toggleMenu()" aria-label="Toggle Menu">☰</button>
+</div>
+</nav>
+</header>
+
+<section class="hero" id="home">
+<div class="hero-container">
+<div>
+<div class="eyebrow-tag">✦ परंपरा • विश्वसनीयता • समाधान</div>
+<h1>प्राचीन वैदिक ज्योतिष से पाएं<br><span>सटीक जीवन मार्गदर्शन</span></h1>
+<p>जन्म कुंडली विश्लेषण, विवाह गुण मिलान, कार्यक्षेत्र की दिशा और वास्तु समाधान के लिए व्यक्तिगत परामर्श। अपनी समस्याओं का समाधान पारंपरिक वैदिक पद्धति से प्राप्त करें।</p>
+
+<div class="hero-actions">
+<a class="btn-primary" href="https://wa.me/917078890096?text=Namaste%2C%20mujhe%20jyotish%20paramarsh%20chahiye">WhatsApp पर परामर्श ↗</a>
+<a class="btn-ghost" href="#services">सेवाएँ देखें ↓</a>
+</div>
+</div>
+
+<div class="mandala-box">
+<div class="mandala-disc">
+<div class="orbit-planets">
+<span>✦</span>
+<span>☾</span>
+<span>✧</span>
+<span>☼</span>
+</div>
+<div class="mandala-core">ॐ</div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="section" id="services">
+<div class="sec-head">
+<span class="sub">Our Divine Services</span>
+<h2>मार्गदर्शन सेवाएँ</h2>
+<p>आपकी व्यक्तिगत समस्याओं व जिज्ञासाओं के अनुरूप विशेष ज्योतिषीय परामर्श।</p>
+</div>
+
+<div class="services-grid">
+<article class="service-card">
+<div>
+<div class="srv-icon">☼</div>
+<h3>जन्म कुंडली विश्लेषण</h3>
+<p>ग्रह स्थिति, दशा चक्र व भविष्य के संकेतों का गहन एवं सटीक विश्लेषण।</p>
+</div>
+<a class="srv-link" href="https://wa.me/917078890096?text=Janam%20Kundli%20ke%20liye%20paramarsh%20chahiye">पूछें ↗</a>
+</article>
+
+<article class="service-card">
+<div>
+<div class="srv-icon">♡</div>
+<h3>विवाह मिलान</h3>
+<p>अष्टकूट गुण मिलान, मांगलिक विचार व सुखी दांपत्य जीवन के उपाय।</p>
+</div>
+<a class="srv-link" href="https://wa.me/917078890096?text=Vivah%20milan%20ke%20liye%20paramarsh%20chahiye">पूछें ↗</a>
+</article>
+
+<article class="service-card">
+<div>
+<div class="srv-icon">◷</div>
+<h3>शुभ मुहूर्त</h3>
+<p>विवाह, गृह प्रवेश व नवीन व्यापार शुरुआत के लिए सटीक काल गणना।</p>
+</div>
+<a class="srv-link" href="https://wa.me/917078890096?text=Shubh%20muhurat%20ki%20jaankari%20chahiye">पूछें ↗</a>
+</article>
+
+<article class="service-card">
+<div>
+<div class="srv-icon">⌂</div>
+<h3>वास्तु मार्गदर्शन</h3>
+<p>घर और कार्यस्थल में सकारात्मक ऊर्जा प्रवाह हेतु वैज्ञानिक वैदिक उपाय।</p>
+</div>
+<a class="srv-link" href="https://wa.me/917078890096?text=Vastu%20paramarsh%20chahiye">पूछें ↗</a>
+</article>
+
+<article class="service-card">
+<div>
+<div class="srv-icon">№</div>
+<h3>अंक ज्योतिष</h3>
+<p>जन्मतिथि व नामांक के संतुलन से जीवन में प्रगति के मार्ग।</p>
+</div>
+<a class="srv-link" href="https://wa.me/917078890096?text=Ank%20jyotish%20paramarsh%20chahiye">पूछें ↗</a>
+</article>
+
+<article class="service-card">
+<div>
+<div class="srv-icon">♧</div>
+<h3>ग्रह-दशा शांति</h3>
+<p>शनि साढ़े साती, कालसर्प व राहु-केतु के दुष्प्रभावों के सरल वैदिक निवारण।</p>
+</div>
+<a class="srv-link" href="https://wa.me/917078890096?text=Grah%20dasha%20shanti%20ke%20upay">पूछें ↗</a>
+</article>
+
+<article class="service-card">
+<div>
+<div class="srv-icon">♨</div>
+<h3>पूजा व अनुष्ठान</h3>
+<p>पारंपरिक विधि-विधान द्वारा दोष शांति व विशेष धार्मिक संकल्प।</p>
+</div>
+<a class="srv-link" href="https://wa.me/917078890096?text=Puja%20anushthan%20ki%20jaankari">पूछें ↗</a>
+</article>
+
+<article class="service-card">
+<div>
+<div class="srv-icon">✧</div>
+<h3>रत्न परामर्श</h3>
+<p>कुंडली के अनुसार सही रत्ती, धातु व शुभ धारण विधि की संपूर्ण जानकारी।</p>
+</div>
+<a class="srv-link" href="#gems">रत्न देखें ↓</a>
+</article>
+</div>
+</section>
+
+<div class="gold-banner">
+<div class="gold-banner-inner">
+<div>
+<h3>व्यक्तिगत गोपनीय परामर्श</h3>
+<p>अपनी समस्याओं के समाधान के लिए सीधे संपर्क करें और समय आरक्षित करें।</p>
+</div>
+<a class="btn-primary" href="https://wa.me/917078890096?text=Namaste%2C%20mujhe%20appointment%20book%20karna%20hai">अपॉइंटमेंट लें ↗</a>
+</div>
+</div>
+
+<section class="section" id="gems">
+<div class="sec-head">
+<span class="sub">Certified Divine Gems</span>
+<h2>प्रामाणिक रत्न संग्रह</h2>
+<p>लैब-प्रमाणित, दोष-रहित एवं पूर्णतः प्राकृतिक रत्न संग्रह।</p>
+</div>
+
+<div class="product-grid">
+<article class="gem-card">
+<img class="gem-img" src="panna.jpg" alt="पन्ना रत्न" onerror="this.src='https://images.unsplash.com/photo-1615655406736-b37c4fabf923?auto=format&fit=crop&w=500&q=80'" loading="lazy">
+<div class="gem-body">
+<span class="gem-badge">EMERALD • बुध</span>
+<h3>पन्ना (Emerald)</h3>
+<p>बुद्धि, एकाग्रता, व्यवसाय और वाणी के प्रभाव में वृद्धि हेतु अनुशंसित।</p>
+<a class="btn-primary" href="https://wa.me/917078890096?text=Panna%20ratna%20ki%20keemat%20jani%20hai">कीमत जानें</a>
+</div>
+</article>
+
+<article class="gem-card">
+<img class="gem-img" src="neelam.jpg" alt="नीलम रत्न" onerror="this.src='https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=500&q=80'" loading="lazy">
+<div class="gem-body">
+<span class="gem-badge">BLUE SAPPHIRE • शनि</span>
+<h3>नीलम (Blue Sapphire)</h3>
+<p>तीव्र प्रभावशाली रत्न। न्याय, अनुशासन और त्वरित उन्नति के लिए।</p>
+<a class="btn-primary" href="https://wa.me/917078890096?text=Neelam%20ratna%20ki%20keemat%20jani%20hai">कीमत जानें</a>
+</div>
+</article>
+
+<article class="gem-card">
+<img class="gem-img" src="pukhraj.jpg" alt="पुखराज रत्न" onerror="this.src='https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=500&q=80'" loading="lazy">
+<div class="gem-body">
+<span class="gem-badge">YELLOW SAPPHIRE • गुरु</span>
+<h3>पुखराज (Yellow Sapphire)</h3>
+<p>ज्ञान, समृद्धि, वैवाहिक सुख और आध्यात्मिक उत्थान का प्रतीक।</p>
+<a class="btn-primary" href="https://wa.me/917078890096?text=Pukhraj%20ratna%20ki%20keemat%20jani%20hai">कीमत जानें</a>
+</div>
+</article>
+
+<article class="gem-card">
+<img class="gem-img" src="manikya.jpg" alt="माणिक्य रत्न" onerror="this.src='https://images.unsplash.com/photo-1599643477877-530eb83abc8e?auto=format&fit=crop&w=500&q=80'" loading="lazy">
+<div class="gem-body">
+<span class="gem-badge">RUBY • सूर्य</span>
+<h3>माणिक्य (Ruby)</h3>
+<p>आत्मविश्वास, नेतृत्व क्षमता और सामाजिक मान-सम्मान में वृद्धि।</p>
+<a class="btn-primary" href="https://wa.me/917078890096?text=Manikya%20ratna%20ki%20keemat%20jani%20hai">कीमत जानें</a>
+</div>
+</article>
+</div>
+
+<p class="disclaimer">
+*वैधानिक सूचना: रत्न और ज्योतिषीय उपाय पारंपरिक मान्यताओं पर आधारित हैं। इनका चयन किसी विशेषज्ञ की सलाह के बाद ही करें।
+</p>
+</section>
+
+<div class="story-wrapper" id="about">
+<div class="story-container">
+<div>
+<span class="eyebrow-tag">About Our Heritage</span>
+<h2>प्राचीन ज्ञान,<br>आधुनिक दृष्टिकोण</h2>
+<p>श्री बालाजी ज्योतिष केंद्र में हमारा उद्देश्य आपको पारंपरिक ज्योतिषीय सूत्रों के आधार पर तार्किक और स्पष्ट मार्गदर्शन प्रदान करना है ताकि आप अपने जीवन के महत्वपूर्ण निर्णय आत्मविश्वास के साथ ले सकें।</p>
+</div>
+
+<div class="story-card-box">
+<h3>परामर्श प्रक्रिया (4 सरल चरण)</h3>
+<ol>
+<li><span>01</span> अपनी समस्या या सेवा का चयन करें</li>
+<li><span>02</span> WhatsApp पर जन्म विवरण (तारीख, समय, स्थान) भेजें</li>
+<li><span>03</span> समय व परामर्श शुल्क की पुष्टि करें</li>
+<li><span>04</span> निर्धारित समय पर विस्तृत बातचीत व समाधान</li>
+</ol>
+<div style="margin-top:24px;">
+<a class="btn-primary" href="https://wa.me/917078890096?text=Namaste%2C%20mujhe%20process%20ke%20baare%20mein%20poochna%20hai">प्रक्रिया जानें ↗</a>
+</div>
+</div>
+</div>
+</div>
+
+<section class="section" id="contact">
+<div class="contact-container">
+<div>
+<span class="eyebrow-tag">Get in Touch</span>
+<h2>व्यक्तिगत परामर्श हेतु<br>सम्पर्क करें</h2>
+<p>प्रत्येक कुंडली अद्वितीय होती है। अपने प्रश्नों के सटीक उत्तर पाने के लिए हमारे कार्यालय से संपर्क करें या संदेश छोड़ें।</p>
+<br>
+<a class="btn-primary" href="https://wa.me/917078890096?text=Namaste%2C%20mujhe%20baat%20karni%20hai">WhatsApp पर लिखें ↗</a>
+</div>
+
+<div class="contact-card">
+<div class="contact-row">
+<div class="contact-icon">✆</div>
+<div>
+<small>Direct Call / WhatsApp</small>
+<strong><a href="tel:+917078890096">+91 70788 90096</a></strong>
+</div>
+</div>
+<div class="contact-row">
+<div class="contact-icon">◷</div>
+<div>
+<small>Consultation Hours</small>
+<strong>सुबह 10:00 बजे से सायं 07:00 बजे तक</strong>
+</div>
+</div>
+<div class="contact-row">
+<div class="contact-icon">✧</div>
+<div>
+<small>Mode of Consultation</small>
+<strong>फ़ोन कॉल / व्यक्तिगत भेंट (अपॉइंटमेंट द्वारा)</strong>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<footer>
+<div class="footer-inner">
+<div>
+<strong style="color:#fff; font-family:'Noto Serif Devanagari', serif; font-size:16px;">श्री बालाजी ज्योतिष केंद्र</strong>
+<p style="font-size:12px; margin-top:4px;">परंपरा, प्रामाणिकता एवं व्यक्तिगत ज्योतिषीय मार्गदर्शन</p>
+</div>
+<div>
+© <span id="year"></span> Shri Balaji Jyotish Kendra. All rights reserved.
+</div>
+</div>
+</footer>
+
+<a class="whatsapp-float" href="https://wa.me/917078890096?text=Namaste%2C%20mujhe%20jaankari%20chahiye" target="_blank" rel="noopener noreferrer">
+<span>💬</span> WhatsApp चैट
+</a>
+
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+
+function toggleMenu() {
+const nav = document.getElementById('navLinks');
+nav.classList.toggle('open');
+}
+</script>
+</body>
+</html>
+
+[  ]
